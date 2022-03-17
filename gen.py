@@ -28,7 +28,7 @@ s = """# ギター練習日記
 
 """
 for i in range(begin,end+1):
-	s += "[{}年{}月{}日](./{}.md)\n".format(i//10000,i//100%100,i%100,i)
+	s += "[{}年{}月{}日](./{}.md)  \n".format(i//10000,i//100%100,i%100,i)
 
 f.write(s)
 f.close()
